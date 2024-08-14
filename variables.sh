@@ -22,4 +22,4 @@ echo -e "Value of x is ${x} and value of y is ${y}"
 
 # &>/dev/null - redirect stdout and stderr to /dev/null
 
-echo -e $0 $1 $2 $# $* $? $$ > /dev/null
+echo -e $0 $1 $2 $# $* $? $$ 
