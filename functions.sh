@@ -1,5 +1,8 @@
 print_hello() {
-  echo -e "\e[32mHello $1\e[0m"
+ echo from the main program is - $x
+ echo hello world
+ y=20
 }
-
-print_hello "World"
+y=10
+x=20
+print_hello
