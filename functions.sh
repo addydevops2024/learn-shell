@@ -9,9 +9,9 @@ print_hello
  echo y from the main program is - $y
 
 input_fucntion() {
-  first name is $1
-  last name is $2
-  total name is $*
+  echo first name is $1
+  echo last name is $2
+  echo total name is $*
 }
 
 input_fucntion john doe
